@@ -2,24 +2,34 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Encontros Thaís e Carlos</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caixa de Mensagens</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="overlay"></div>
-  <h1>Encontros Thaís e Carlos</h1>
+  <header>Puzzle Love</header>
 
-  <div class="mensagem-container">
-    <p id="mensagem">Clique para um novo encontro</p>
+  <main class="main">
+    <div class="message-box" id="messageBox">
+      Clique em uma opção para ver a mensagem.
+    </div>
+  </main>
+
+  <div class="button-container">
+    <button onclick="showMessage(1)">1</button>
+    <button onclick="showMessage(2)">2</button>
+    <button onclick="showMessage(3)">3</button>
   </div>
 
-  <div class="botoes">
-    <button onclick="gerarEncontro('fora')">Fora de Casa</button>
-    <button onclick="gerarEncontro('casa')">Em Casa</button>
-    <button onclick="gerarEncontro('embarque')">Embarcado</button>
-  </div>
-
-  <script src="script.js"></script>
+  <script>
+    function showMessage(number) {
+      const messages = {
+        1: "Você é minha pessoa favorita no mundo inteiro.",
+        2: "Te amo mais do que ontem e menos do que amanhã.",
+        3: "Estar com você torna tudo mais bonito."
+      };
+      document.getElementById('messageBox').textContent = messages[number];
+    }
+  </script>
 </body>
 </html>

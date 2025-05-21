@@ -53,13 +53,13 @@ footer.button-container {
 }
 
 .button-container button {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background-color: rgba(255, 255, 255, 0.85);
   border: none;
   border-radius: 10px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   color: #333;
   cursor: pointer;
   transition: transform 0.2s ease;

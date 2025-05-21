@@ -10,26 +10,17 @@
   <header>Encontros Thaís e Carlos</header>
 
   <main>
-    <div class="message-box" id="messageBox">
-      Clique em uma opção para ver a mensagem.
+    <div class="message-box" id="mensagem">
+      Clique em uma opção para ver o encontro.
     </div>
   </main>
 
   <footer class="button-container">
-    <button onclick="showMessage(1)">1</button>
-    <button onclick="showMessage(2)">2</button>
-    <button onclick="showMessage(3)">3</button>
+    <button onclick="gerarEncontro('fora')">Fora</button>
+    <button onclick="gerarEncontro('casa')">Casa</button>
+    <button onclick="gerarEncontro('embarque')">Distância</button>
   </footer>
 
-  <script>
-    function showMessage(number) {
-      const messages = {
-        1: "Nosso primeiro encontro foi inesquecível.",
-        2: "Cada dia com você é um presente.",
-        3: "Mal posso esperar pelos nossos próximos momentos juntos."
-      };
-      document.getElementById('messageBox').textContent = messages[number];
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -19,7 +19,7 @@ header {
   font-size: 22px;
   font-weight: bold;
   padding: 16px 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: transparent;
   color: white;
 }
 

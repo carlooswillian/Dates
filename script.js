@@ -4,7 +4,9 @@ const encontros = {
       "Café da manhã em uma padaria",
       "Fazer um bate-volta",
       "Dia em búzios",
-      "Day use em hotel em Búzios"
+      "Day use em hotel em Búzios",
+      "Passeio de barco",
+      "Ir para uma cabana"
     ],
     manha: [
       "Passeio de bicicleta juntos",
@@ -13,7 +15,6 @@ const encontros = {
       "Tomar sorvete em uma sorveteria",
       "Passear no shopping",
       "Fazer uma trilha",
-      "Passeio de barco",
       "Ir a um fliperama",
       "Conhecer uma cafeteria nova",
       "Visitar um ponto turístico da cidade",
@@ -22,15 +23,14 @@ const encontros = {
     ],
     tarde: [
       "Piquenique com comida feita por vocês",
-      "Relembrar nossa noite no carro no foguete",
+      "Relembrar a noite de carro no foguete",
       "Ir ao cinema",
       "Jantar em um restaurante novo",
       "Assistir o pôr do sol",
       "Tour gastronômico",
       "Comprar uma planta nova e montar arranjos juntos",
-      "Alugar uma bicicleta e passear pela cidade",
       "Ir em uma cervejaria",
-      "Fazer a brincadeira de compra na Americanas",
+      "Fazer brincadeira da compra na Americanas (bebida+snack+doce)",
       "Jantar com tema",
       "Rodízio de pizza",
       "Ir a uma doceria",
@@ -48,7 +48,12 @@ const encontros = {
   },
   casa: {
     acordar: [
+      ""
+    ],
+    manha: [
+      "Fazer uma cápsula do tempo",
       "Montar um quebra-cabeça",
+      "Montar um lego juntos", 
       "Fazer uma cápsula do tempo",
       "Desenhar ou pintar juntos",
       "Escrever uma carta um para o outro",
@@ -68,12 +73,7 @@ const encontros = {
       "Fazer aula online de algo novo",
       "Montar caixas surpresa para datas futuras",
       "Assistir vídeos do casamento juntos"
-    ],
-    manha: [
-      "Fazer uma cápsula do tempo",
-      "Montar um quebra-cabeça",
-      "Montar um lego juntos"
-    ],
+    ], 
     tarde: [
       "Tomar banho juntos",
       "Noite do fondue",
@@ -107,7 +107,8 @@ const encontros = {
       "Fazer massagem um no outro",
       "Brincar de adedonha",
       "Jogar um jogo de cartas só de casal",
-      "Fazer uma noite com vinho, velas aromáticas e música"
+      "Fazer uma noite com vinho, velas aromáticas e música", 
+      "Tomar uma garrafa de vinho, conversar sobre a vida, porém pelados" 
     ]
   },
   embarque: [

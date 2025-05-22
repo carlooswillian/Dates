@@ -48,7 +48,8 @@ const encontros = {
   },
   casa: {
     acordar: [
-      ""
+      "Escrever uma carta um para o outro",
+      "Fazer uma lista de coisas para fazer juntos"
     ],
     manha: [
       "Fazer uma cápsula do tempo",
@@ -62,6 +63,7 @@ const encontros = {
       "Criar vídeos engraçados no TikTok",
       "Fazer um quiz de casal",
       "Tocar uma música juntos",
+      "Rever fotos antigas e relembrar histórias",
       "Fazer origamis",
       "Planejar uma próxima viagem",
       "Desenhar sonhos em comum",

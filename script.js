@@ -78,6 +78,7 @@ const encontros = {
     ], 
     tarde: [
       "Tomar banho juntos",
+      "Fazer uma receita, usando apenas o avental do Amor & Pastas", 
       "Noite do fondue",
       "Cozinhar juntos uma receita nova",
       "Acampar na sala",

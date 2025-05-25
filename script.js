@@ -6,7 +6,8 @@ const encontros = {
       "Dia em búzios",
       "Day use em hotel em Búzios",
       "Passeio de barco",
-      "Ir para uma cabana"
+      "Ir para uma cabana",
+      "Ir numa piscina" 
     ],
     manha: [
       "Passeio de bicicleta juntos",
@@ -25,6 +26,7 @@ const encontros = {
     tarde: [
       "Piquenique com comida feita por vocês",
       "Relembrar a noite de carro no foguete",
+      "'Piquenique' no cinema", 
       "Ir ao cinema",
       "Jantar em um restaurante novo",
       "Assistir o pôr do sol",

@@ -44,7 +44,8 @@ const encontros = {
       "Ir a um bar com música ao vivo",
       "Ver a lua da praia",
       "Ir a um restaurante na passagem",
-      "Ver o nascer do sol"
+      "Ver o nascer do sol", 
+      "Canoa havaiana ao amanhecer" 
     ]
   },
   casa: {

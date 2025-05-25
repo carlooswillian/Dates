@@ -11,6 +11,7 @@ const encontros = {
     manha: [
       "Passeio de bicicleta juntos",
       "Passeio na orla",
+      "Ir a praia", 
       "Caminhada nas Palmeiras",
       "Tomar sorvete em uma sorveteria",
       "Passear no shopping",
@@ -95,6 +96,7 @@ const encontros = {
       "Noite mexicana com nachos ou tacos",
       "Fazer noite do hambúrguer artesanal",
       "Noite do sushi em casa",
+      "Noite de drinks", 
       "Jogo da meia, melhor de 3",
       "Fazer um piquenique no chão da sala",
       "Reprodução de uma aula de culinária"
